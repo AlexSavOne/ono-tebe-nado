@@ -63,7 +63,7 @@ body {
 
 .header__address {
   justify-self: end;
-  max-width: 237px;
+  max-width: 240px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -220,7 +220,7 @@ body {
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
