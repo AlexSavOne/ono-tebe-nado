@@ -346,8 +346,8 @@ body {
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
-  white-space: nowrap;
   text-underline-offset: 4px;
+  white-space: nowrap;
 }
 
 .footer__menu {
