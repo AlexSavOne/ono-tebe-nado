@@ -20,7 +20,7 @@ body {
   place-items: center;
   min-width: 1337px;
   min-height: 100px;
-  padding: 90px 52px 93px 51px;
+  padding: 90px 49px 93px 51px;
 }
 
 .header__menu {
@@ -63,7 +63,7 @@ body {
 
 .header__address {
   justify-self: end;
-  max-width: 240px;
+  max-width: 242px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -234,7 +234,7 @@ body {
 .card__title {
   position: relative;
   z-index: 1;
-  width: 350px;
+  width: 352px;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
