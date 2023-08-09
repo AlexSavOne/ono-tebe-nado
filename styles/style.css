@@ -1,7 +1,7 @@
 body {
-  font-family: Raleway, Arial, Helvetica, sans-serif;
-  margin: 0 auto;
   max-width: 1440px;
+  margin: 0 auto;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 .overlay {
@@ -20,7 +20,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  padding: 92px 49px 92px 51px;
+  padding: 91px 48px 92px 51px;
   text-underline-offset: 4.4px;
 }
 
@@ -56,8 +56,7 @@ body {
   width: 138px;
 }
 
-.header__address {
-  justify-self: end;
+.address {
   max-width: 242px;
   font-weight: 400;
   font-size: 18px;
@@ -66,13 +65,16 @@ body {
   text-underline-offset: 4px;
 }
 
+.header__address_justify {
+  justify-self: end;
+}
+
 /* -------------COVER------------- */
 
 .cover {
   position: relative;
   z-index: 1;
-  height: 757px;
-  min-height: 100px;
+  padding: 700px 0 58px;
   color: #fff;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -85,6 +87,9 @@ body {
   flex-direction: column;
   gap: 20px;
   padding: 165px 50px 136px;
+}
+
+.aligned-text {
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
@@ -93,20 +98,20 @@ body {
   text-transform: uppercase;
 }
 
-.aligned-text_letter-spacing,
-.aligned-text_center_letter-spacing {
-  letter-spacing: 60px;
-}
-
 .aligned-text_center {
-  line-height: 100px;
   text-align: center;
 }
 
 .aligned-text_right {
-  line-height: 100px;
-  letter-spacing: 60px;
   text-align: right;
+}
+
+.aligned-text_line-height {
+  line-height: 100px;
+}
+
+.aligned-text_letter-spacing {
+  letter-spacing: 60px;
 }
 
 .aligned-text_right_letter-spacing {
@@ -158,11 +163,11 @@ body {
 /* -------------LOTS------------- */
 
 .lots {
-  padding: 180px 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex-grow: 1;
+  justify-content: space-between;
+  padding: 180px 50px;
 }
 
 .lots__heading {
@@ -225,7 +230,7 @@ body {
 .card__title {
   position: relative;
   z-index: 1;
-  width: 350px;
+  width: 352px;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -269,9 +274,9 @@ body {
 .about__logo {
   display: flex;
   flex-shrink: 0;
+  justify-self: center;
   justify-content: center;
   align-items: center;
-  justify-self: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -304,33 +309,21 @@ body {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 30px;
   color: #000;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: normal;
+  line-height: 23px;
 }
 
 /* -------------FOOTER------------- */
 
 .footer {
-  text-underline-offset: 4.4px;
   display: grid;
   grid-template-columns: 1fr 158px 1fr;
-  padding: 180px 50px 90px;
-}
-
-.address {
-  justify-self: flex-start;
-  color: #000;
-  font-family: Raleway;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 135%;
-  text-underline-offset: 4px;
-  white-space: nowrap;
+  padding: 183px 50px 90px;
+  text-underline-offset: 4.4px;
 }
 
 .footer__menu {
@@ -339,7 +332,6 @@ body {
 }
 
 .footer__menu-list {
-  color: #000;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
